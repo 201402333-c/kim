@@ -1,7 +1,7 @@
 #include<iostream>
 
 class LetDebug {
-public :
+public:
 	void printnum() {
 		unsigned short s1 = 32767;
 		unsigned short s2 = 1;
@@ -14,5 +14,6 @@ public :
 int main() {
 	LetDebug* ld = new LetDebug;
 	ld->printnum();
+	std::cout << "201402333" << std::endl;
 	return 0;
 }
